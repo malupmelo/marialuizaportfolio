@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+     background-color: black
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background-color:rgb(97, 97, 97)
+}
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h li a:hover {
+    background-color: coral;
+}
+   
+main {
+    display: flex; /* Flexbox para alinhar os itens lado a lado */
+     /* Alinha o conteúdo no centro horizontalmente */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.escrita {
+    color: coral;
+    text-align: left;
+    font-size: xx-large;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-right: 25px; /* Espaçamento entre a escrita e a imagem */
+}
+
+img {
+    background-color: coral;
+    width: 800px; /* Ajusta a largura da imagem */
+    height: auto;
+    padding: 3%;
+
+}

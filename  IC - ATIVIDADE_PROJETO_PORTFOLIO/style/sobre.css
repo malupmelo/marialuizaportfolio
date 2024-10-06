@@ -1,0 +1,120 @@
+body {
+    background-color:white;
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background-color:rgb(97, 97, 97)
+}
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h li a:hover {
+    background-color:coral;
+}
+
+/* Define o contêiner principal para a imagem e a div que ficará sobreposta */
+.container {
+    position: relative; /* Permite que o conteúdo dentro do contêiner seja posicionado de forma relativa */
+    width: 100%; /* Ajusta o contêiner para ocupar 100% da largura */
+}
+
+/* Estiliza a imagem, mantendo o tamanho e ajuste */
+#fotoespelho-img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Estiliza a div sobreposta */
+#boxfoto-img {
+    position: absolute; /* Faz com que a div fique sobreposta à imagem */
+    bottom: -160px; /* Move a div para 20px da parte inferior da imagem */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-left: 12%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding-right: 10%;
+}
+
+/* Estiliza a imagem dentro da div */
+#fotosorrindo-img {
+    width: 500px;
+    height: auto;
+}
+
+.gosta {
+    color: white;
+    margin-left: 20px;
+}
+
+ul { 
+    color: white;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+iframe {
+    margin-left: 70px;
+    margin-bottom: 10px;
+    
+}
+
+/* Estiliza o texto */
+#MariaLuiza {
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+     /* Força o h1 a ocupar a linha inteira */
+}
+
+
+#frase {
+    margin-top: 180px;
+    background-color:coral;
+    text-align: left;
+    font-weight: 900px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size:smaller;
+    font-weight: 600;
+}
+
+#font1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+ 
+p {
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+#sobremim {
+   box-sizing: border-box;
+   background-color: black;
+   color: white;
+   margin: 0%;
+   margin-top: 40px;
+   padding: 50px;
+}
+
+
+

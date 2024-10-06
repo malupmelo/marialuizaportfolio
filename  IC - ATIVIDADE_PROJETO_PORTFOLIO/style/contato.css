@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background-color:rgb(97, 97, 97)
+}
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h li a:hover {
+    background-color: coral;
+}
+
+h1 {
+    margin: 5%;
+    color: black;
+    padding: 4%;
+    background-color:white;
+}
+
+main {
+    margin: 5%;
+    background-color: white;
+    color:black;
+    padding: 20px;
+}
+
+h3 {
+    padding-inline: 70px;
+    display: inline-block;
+}
+
+.logoinsta {
+    width: 50px;
+    margin-top: 5%;
+}
